@@ -3,7 +3,7 @@
   color: #000000c9;
 }
 
-.navBar {
+.mainNavBar {
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -12,9 +12,20 @@
  padding: 0 30px;
 }
 
+.secondaryNavBar {
+  height: 74px;
+  border-bottom: 1px solid darkgray;
+ }
+
 .projectBanner {
   background-color: #FBFBFA;
   padding: 0 60px;
+  border-bottom: 1px solid darkgray;
+}
+
+.badgesContainer {
+  padding-top: 20px;
+  padding-bottom: 80px;
 
 }
 
@@ -87,6 +98,15 @@
   margin-left: 10px;
 }
 
+.navOptionsContainer {
+  margin-left: 150px;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .navText {
   font-size: 15px;
 }
@@ -110,7 +130,7 @@
 }
 
 .rewardsAndUpdates {
-  /* display: flex; */
+  padding-top: 40px;
 }
 
 #Rewards {
