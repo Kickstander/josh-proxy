@@ -12,10 +12,6 @@
  padding: 0 30px;
 }
 
-.rewardsAndUpdates {
-  display: flex;
-}
-
 .projectBanner {
   background-color: #FBFBFA;
   padding: 0 60px;
@@ -113,9 +109,16 @@
   background-color: darkgray;
 }
 
+.rewardsAndUpdates {
+  /* display: flex; */
+}
+
 #Rewards {
-  width: 90%;
-  margin-left: 50px;
+  float: right;
+  width: 25%;
+  margin-right: 50px;
+  /* width: 90%;
+  margin-left: 50px; */
 }
 
 #Updates {
