@@ -97,9 +97,11 @@
 }
 
 .followBtn {
-  background-color: lightgray;
+  background-color: #d3d3d3ad;
   padding: 10px 5px;
+  width: 105px;
   text-align: center;
+  font-size: 13px
 
 }
 
