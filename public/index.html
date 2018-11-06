@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="UTF-8">
+  <title>RickStarter</title>
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+    <!-- <link href="CSS FILEPATH/NAME HERE" rel="stylesheet" type="text/css"/> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300|Barlow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id='Funding'></div>
+    <div id='Rewards'></div>
+    <div id='Updates'></div>
+    <div id='Comments'></div>
+    <!-- <script src="http://localhost:3001/bundle.js"></script> -->
+    <script src="http://localhost:3002/bundle.js"></script>
+    <script src="http://localhost:3003/bundle.js"></script>
+    <script src="http://localhost:3004/bundle.js"></script>
+    <script>
+      // ReactDOM.render(
+      //   React.createElement(Updates),
+      //   document.getElementById('Updates')
+      // );
+      ReactDOM.render(
+        React.createElement(Funding),
+        document.getElementById('Funding')
+      );
+      // ReactDOM.render(
+      //   React.createElement(Comments),
+      //   document.getElementById('Comments')
+      // );
+    </script>
+  </body>
+
+</html>

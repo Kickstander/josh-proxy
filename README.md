@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/FEC-Kickstand/updates-service.git
+  - https://github.com/FEC-Kickstand/comments-module.git
+  - https://github.com/FEC-Kickstand/funding-widget-svc.git
+  - https://github.com/FEC-Kickstand/rewards-module-svc.git
 
 ## Table of Contents
 
@@ -17,7 +17,18 @@
 
 ## Usage
 
-> Some usage instructions
+### Comments
+
+> For Sarah don't use nodemon // see if it throws error for me too
+
+### Funding
+> for keiran make sure to stop mysql server (mysql.server stop) and then start:
+> mysql.start --secure-file-priv=
+
+### Updates
+
+### Rewards
+
 
 ## Requirements
 
