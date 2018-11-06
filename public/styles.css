@@ -12,6 +12,10 @@
  padding: 0 30px;
 }
 
+.rewardsAndUpdates {
+  display: flex;
+}
+
 .projectBanner {
   background-color: #FBFBFA;
   padding: 0 60px;
@@ -107,4 +111,13 @@
 
 .followBtn:hover {
   background-color: darkgray;
+}
+
+#Rewards {
+  width: 90%;
+  margin-left: 50px;
+}
+
+#Updates {
+  margin: 0 -100px;
 }
