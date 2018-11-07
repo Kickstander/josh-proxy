@@ -3,10 +3,10 @@
 
   <head>
 	<meta charset="UTF-8">
-  <title>RickStarter</title>
+  <title>Kickstand</title>
   <script src="/lib/react.development.js"></script>
   <script src="/lib/react-dom.development.js"></script>
-    <!-- <link href="CSS FILEPATH/NAME HERE" rel="stylesheet" type="text/css"/> -->
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:300|Barlow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500" rel="stylesheet">
     <script
@@ -15,28 +15,76 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id='Funding'></div>
-    <div id='Rewards'></div>
-    <div id='Updates'></div>
+  <div class="global">
+
+    <!-- NAV BAR -->
+    <nav class='mainNavBar'>
+      <div>
+        <span class="navText">Explore</span>
+        <span class="navText startProjectBtn">Start a project</span>
+      </div>
+      <img class="logoImg" src="https://d3mlfyygrfdi2i.cloudfront.net/kickstarter-logo-color.png">
+      <div class='searchContainer'>
+        <div class="navText">Search</div>
+        <img class="magnifyingGlassImg" src="/images/magnifying-glass.png">
+        <img class="userImg" src="/images/user-circle.png">
+      </div>
+    </nav>
+
+    <!-- HEADER PICTURE AND FUNDING -->
+    <header class="projectBanner">
+
+      <div class="fundingHeader">
+        <div class="followContainer">
+          <img src="/images/jordan-head.png">
+          <div>By Jordan Holmes</div>
+          <div class="followBtn">Follow Creator</div>
+        </div>
+        <div class="titleContainer">
+          <div class="title">Monumental</div>
+          <div class="subTitle">Monument is the next generation civilization game with a mix of innovative mechanics taking the best from deckbuilding and 4X games.</div>
+        </div>
+      </div>
+
+      <section class="funding">
+        <div><img src="https://picsum.photos/850/480"></div>
+        <div id='Funding'></div>
+      </section>
+      <div class="badgesContainer">
+        <span>Kickstand logo</span>
+        <span>Table Top games</span>
+        <span>location</span>
+      </div>
+    </header>
+    <nav class="secondaryNavBar">
+      <div></div>
+      <div class="navOptionsContainer">
+        <span class="navText">Campaign</span>
+        <span class="navText">Updates</span>
+        <span class="navText">Comments</span>
+      </div>
+    </nav>
+
+    <div class="rewardsAndUpdates">
+      <div id='Rewards'></div>
+      <div id='Updates'></div>
+    </div>
     <div id='Comments'></div>
-    <!-- <script src="http://localhost:3001/bundle.js"></script> -->
+    <script src="http://localhost:3001/bundle.js"></script>
     <script src="http://localhost:3002/bundle.js"></script>
     <script src="http://localhost:3003/bundle.js"></script>
     <script src="http://localhost:3004/bundle.js"></script>
     <script>
-      // ReactDOM.render(
-      //   React.createElement(Updates),
-      //   document.getElementById('Updates')
-      // );
       ReactDOM.render(
         React.createElement(Funding),
         document.getElementById('Funding')
       );
-      // ReactDOM.render(
-      //   React.createElement(Comments),
-      //   document.getElementById('Comments')
-      // );
+      ReactDOM.render(
+        React.createElement(Comments),
+        document.getElementById('Comments')
+      );
     </script>
+  </div>
   </body>
 
 </html>
